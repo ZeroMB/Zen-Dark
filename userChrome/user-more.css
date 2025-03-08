@@ -49,4 +49,9 @@
     #tabbrowser-tabs .tabbrowser-tab:not([pinned]):is([visuallyselected]):not(:hover) .tab-close-button {
         display: none !important;
     }
+    
+    /* Fix workspace scale */
+    #zen-workspaces-button {
+        scale: 1.2 !important;
+    }
 }

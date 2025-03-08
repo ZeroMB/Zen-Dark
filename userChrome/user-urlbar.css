@@ -15,6 +15,10 @@
         border: 1px solid var(--toolbar-urlbar-border) !important;
         --urlbar-height: 37px !important; /* Smaller height */
     }
+    
+    #identity-box {
+        margin-top: -2px !important; /* Smaller height icon fixed */
+    }
 
     /* While floating */
     #browser:has(#urlbar[open]) #urlbar-container {
@@ -29,23 +33,12 @@
     #urlbar[open] {
         border: 0 !important;
         background-color: var(--floating-urlbar-bg) !important;
-        top: 62vh !important;
-        width: 40vw !important;
-        left: 51vw !important;
+        /* top: 62vh !important; */
+        /* width: 40vw !important; */
+        /* left: 51vw !important; */
     }
 
     /* Background effect */
-
-    /* #zen-main-app-wrapper:has(#urlbar[open][zen-floating-urlbar="true"]) #browser {
-        pointer-events: none !important;
-        filter: blur(5px) brightness(70%) !important;
-        transition: all 0.2s ease-in-out !important;
-    }
-    
-    #zen-main-app-wrapper:has(#urlbar[open][zen-floating-urlbar="true"]) #urlbar {
-        pointer-events: auto !important;
-    } */
-
     @media (-moz-bool-pref: "user.urlbar.blur.browser-container") {
         #browser:has(#urlbar[open]) .browserContainer {
             pointer-events: none !important;
@@ -73,7 +66,7 @@
     }
 
     .browserContainer {
-        transition: all 0.2s ease-in-out !important;
+        transition: 0.2s ease-in-out !important;
     }
 
     .zen-glance-overlay .browserContainer {
