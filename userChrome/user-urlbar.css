@@ -32,9 +32,9 @@
     /* Floating URL bar */
     #urlbar[open] {
         border: 0 !important;
+        border-radius: 14px !important;
         background-color: var(--floating-urlbar-bg) !important;
-        /* top: 62vh !important; */
-        /* width: 40vw !important; */
+        width: 40vw !important;
         /* left: 51vw !important; */
     }
 

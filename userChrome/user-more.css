@@ -54,4 +54,14 @@
     #zen-workspaces-button {
         scale: 1.2 !important;
     }
+    
+    /* Reduce browser container gap */
+    :root {
+        --zen-element-separation: 6px !important;
+    }
+    
+    /* Zen Menu Icon */
+    #PanelUI-menu-button {
+        list-style-image: url(chrome://branding/content/icon32.png) !important;
+    }
 }
