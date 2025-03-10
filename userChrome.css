@@ -26,6 +26,10 @@
 /* Description: Compact context menu. */
 @import url("userChrome/user-context-menu.css");
 
+/* Name: Workspace Icon */
+/* Description: Set custom workspace icon. */
+@import url("userChrome/Workspace/user-workspace.css");
+
 /* Name: Sidebar */
 /* Description: Floating sidebar. */
 @import url("userChrome/user-sidebar.css");

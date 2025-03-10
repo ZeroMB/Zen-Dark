@@ -4,6 +4,16 @@
     /* .tab-icon-overlay {
         display: none !important;
     } */
+    
+    /* Dark Theme Color */
+    /* :root {
+        --zen-main-browser-background: #101010 !important;
+    } */
+    
+    /* Zen sidebar min width */
+    #navigator-toolbox {
+        min-width: 190px !important;
+    }
 
     /* Disable Status Bar */
     #statuspanel {
@@ -51,9 +61,9 @@
     }
     
     /* Fix workspace scale */
-    #zen-workspaces-button {
+    /* #zen-workspaces-button {
         scale: 1.2 !important;
-    }
+    } */
     
     /* Reduce browser container gap */
     :root {

@@ -102,4 +102,17 @@
             margin-left: -8px !important;
         }
     }
+    
+    
+    /* Hide context menu separator */
+    #context_selectAllTabs + menuseparator::before,
+    #context_ungroupTab + menuseparator::before {
+        display: none !important;
+    }
+
+    /* Remove context menu separator gap */
+    #context_selectAllTabs + menuseparator,
+    #context_ungroupTab + menuseparator {
+        padding-block: 0.5px !important;
+    }
 }
