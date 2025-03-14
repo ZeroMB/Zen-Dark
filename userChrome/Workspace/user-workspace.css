@@ -1,0 +1,54 @@
+/* Move workspace to center */
+#zen-sidebar-bottom-buttons {
+    justify-content: center !important;
+}
+
+@media not (-moz-bool-pref: "user.workspace-icon") {
+
+    /* Fix workspace scale */
+    #zen-workspaces-button {
+        scale: 1.2 !important;
+    }
+}
+
+@media (-moz-bool-pref: "user.workspace-icon") {
+
+    #zen-workspaces-button {
+        gap: 5px !important;
+    }
+
+    toolbarbutton[zen-workspace-id="{0246eb6d-7076-49bc-95b2-c37de14b7cc0}"] .zen-workspace-icon,
+    toolbarbutton[zen-workspace-id="{9eef8af7-a39e-456f-80c6-3154ba87299b}"] .zen-workspace-icon,
+    toolbarbutton[zen-workspace-id="{774068d4-d84e-41d0-8254-8d35a2c74f1b}"] .zen-workspace-icon,
+    toolbarbutton[zen-workspace-id="{ab762fee-99b7-471a-b59e-04914667dd50}"] .zen-workspace-icon {
+        font-size: 0 !important;
+    }
+
+    toolbarbutton[zen-workspace-id="{0246eb6d-7076-49bc-95b2-c37de14b7cc0}"] .zen-workspace-icon {
+        background-image: url("home.svg") !important;
+        background-size: contain !important;
+        width: 16px !important;
+        height: 16px !important;
+    }
+
+    toolbarbutton[zen-workspace-id="{9eef8af7-a39e-456f-80c6-3154ba87299b}"] .zen-workspace-icon {
+        background-image: url("code.svg") !important;
+        background-size: contain !important;
+        width: 17px !important;
+        height: 17px !important;
+    }
+
+    toolbarbutton[zen-workspace-id="{774068d4-d84e-41d0-8254-8d35a2c74f1b}"] .zen-workspace-icon {
+        background-image: url("palette.svg") !important;
+        background-size: contain !important;
+        width: 16px !important;
+        height: 16px !important;
+    }
+
+    toolbarbutton[zen-workspace-id="{ab762fee-99b7-471a-b59e-04914667dd50}"] .zen-workspace-icon {
+        background-image: url("clapperboard.svg") !important;
+        background-size: contain !important;
+        width: 16px !important;
+        height: 16px !important;
+    }
+}
