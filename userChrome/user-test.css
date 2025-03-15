@@ -6,3 +6,18 @@
 /* .urlbarView-row-inner {
     flex-wrap: nowrap !important;
 } */
+
+
+/* #urlbar[open] {
+    animation: slide 0.2s ease-out !important;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+} */
