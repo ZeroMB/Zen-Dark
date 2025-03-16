@@ -36,6 +36,17 @@
         background-color: var(--floating-urlbar-bg) !important;
         width: 40vw !important;
         /* left: 51vw !important; */
+        animation: slide-up 0.2s ease-out !important;
+    }
+    
+    @keyframes slide-up {
+        0% {
+            transform: translateX(-50%) translateY(15px);
+        }
+
+        100% {
+            transform: translateX(-50%) translateY(0);
+        }
     }
 
     /* Background effect */
