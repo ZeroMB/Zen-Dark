@@ -23,4 +23,5 @@
 | `user.findbar`                       | `true`  | Floating find bar.                  |
 | `user.tab-groups`                    | `true`  | Fix tab group styles.               |
 | `user.more`                          | `true`  | Some basic customization.           |
+| `user.zen-sidebar-min-width`         | `true`  | Zen sidebar minimum width.          |
 #### Custom Theme Color: `#101010`

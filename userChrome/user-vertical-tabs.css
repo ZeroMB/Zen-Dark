@@ -38,4 +38,11 @@
     #vertical-pinned-tabs-container .tab-reset-button {
         display: none !important;
     }
+    
+    /* Zen sidebar minimum width */
+    @media (-moz-bool-pref: "user.zen-sidebar-min-width") {
+        #navigator-toolbox {
+            min-width: 190px !important;
+        }
+    }
 }

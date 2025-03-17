@@ -9,11 +9,6 @@
     :root {
         --zen-main-browser-background: #101010 !important;
     }
-    
-    /* Zen sidebar min width */
-    #navigator-toolbox {
-        min-width: 190px !important;
-    }
 
     /* Disable Status Bar */
     #statuspanel {
