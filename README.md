@@ -11,6 +11,7 @@
 | about:config                         | Status  | Usecase                             |
 | ------------------------------------ | :-----: | ----------------------------------- |
 | `user.vertical-tabs`                 | `true`  | Improve the essentials, pin tabs.   |
+| `user.zen-sidebar-min-width`         | `true`  | Zen sidebar minimum width.          |
 | `user.audio-indicator`               | `true`  | Better audio indicator.             |
 | `user.urlbar`                        | `true`  | Enhanced URL bar.                   |
 | `user.urlbar.blur.browser-container` | `true`  | Blur only browser container.        |
@@ -23,5 +24,4 @@
 | `user.findbar`                       | `true`  | Floating find bar.                  |
 | `user.tab-groups`                    | `true`  | Fix tab group styles.               |
 | `user.more`                          | `true`  | Some basic customization.           |
-| `user.zen-sidebar-min-width`         | `true`  | Zen sidebar minimum width.          |
 #### Custom Theme Color: `#101010`
