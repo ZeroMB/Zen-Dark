@@ -1,3 +1,5 @@
+![Zen Dark](https://github.com/user-attachments/assets/03fedc7e-eec3-4e9d-bd5d-50a1c4e94949)
+
 #### Browser Config
 | about:config                              | Status  | Usecase                                                              |
 | ----------------------------------------- | :-----: | -------------------------------------------------------------------- |
@@ -25,3 +27,5 @@
 | `user.tab-groups`                    | `true`  | Fix tab group styles.               |
 | `user.more`                          | `true`  | Some basic customization.           |
 #### Custom Theme Color: `#101010`
+---
+<img width="175px" alt="Made for Zen Browser" src="https://github.com/user-attachments/assets/55febb5e-30d5-4ed0-9361-9674efbaf14c" />
