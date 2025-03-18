@@ -28,4 +28,4 @@
 | `user.more`                          | `true`  | Some basic customization.           |
 #### Custom Theme Color: `#101010`
 ---
-<img width="175px" alt="Made for Zen Browser" src="https://github.com/user-attachments/assets/55febb5e-30d5-4ed0-9361-9674efbaf14c" />
+<img width="275px" alt="Made for Zen Browser" src="https://github.com/user-attachments/assets/55febb5e-30d5-4ed0-9361-9674efbaf14c" />
