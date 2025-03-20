@@ -1,4 +1,5 @@
-![Zen Dark](https://github.com/user-attachments/assets/03fedc7e-eec3-4e9d-bd5d-50a1c4e94949)
+![Zen Browser (v1 10b)](https://github.com/user-attachments/assets/8bda6587-3060-4455-88dc-7052a720c0f4)
+
 
 #### Browser Config
 | about:config                              | Status  | Usecase                                                              |
