@@ -6,9 +6,9 @@
 /* Description: Some basic customization. */
 @import url("userChrome/user-more.css");
 
-/* Name: Vertical Tabs */
+/* Name: Zen sidebar */
 /* Description: Improve the essentials, pin tabs. */
-@import url("userChrome/user-vertical-tabs.css");
+@import url("userChrome/user-zen-sidebar.css");
 
 /* Name: Audio Indicator */
 /* Description: Better audio indicator. */

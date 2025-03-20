@@ -6,3 +6,26 @@
 /* .urlbarView-row-inner {
     flex-wrap: nowrap !important;
 } */
+
+
+/* Media controls dancing tab icon */
+/* @keyframes swing {
+    0% {
+        transform: rotate(-10deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(-10deg);
+    }
+}
+
+.playing {
+    #zen-media-focus-button .toolbarbutton-icon {
+        animation: swing 1.2s ease-in-out infinite alternate;
+        transform-origin: 50% 90%;
+    }
+} */

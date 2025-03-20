@@ -1,4 +1,4 @@
-@media (-moz-bool-pref: "user.vertical-tabs") {
+@media (-moz-bool-pref: "user.zen-sidebar") {
 
     /* Colors of essentials */
     #zen-essentials-container .tab-stack .tab-background,
@@ -39,10 +39,26 @@
         display: none !important;
     }
     
-    /* Zen sidebar minimum width */
-    @media (-moz-bool-pref: "user.zen-sidebar-min-width") {
+    /* Minimum width */
+    @media (-moz-bool-pref: "user.zen-sidebar.min-width") {
         #navigator-toolbox {
             min-width: 190px !important;
+        }
+    }
+    
+    /* Media controls colors */
+    #zen-media-controls-toolbar {
+        & > toolbaritem {
+            background-color: #181818 !important;
+        }
+    }
+    
+    /* Media controls note indicator */
+    @media not (-moz-bool-pref: "user.zen-sidebar.note-indicator") {
+        #zen-media-controls-toolbar {
+            & #zen-media-focus-button::after {
+                display:none !important;
+            }
         }
     }
 }

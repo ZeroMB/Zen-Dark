@@ -12,8 +12,9 @@
 #### User Config
 | about:config                         | Status  | Usecase                             |
 | ------------------------------------ | :-----: | ----------------------------------- |
-| `user.vertical-tabs`                 | `true`  | Improve the essentials, pin tabs.   |
-| `user.zen-sidebar-min-width`         | `true`  | Zen sidebar minimum width (190px).  |
+| `user.zen-sidebar`                   | `true`  | Improve the essentials, pin tabs.   |
+| `user.zen-sidebar.min-width`         | `true`  | Zen sidebar minimum width (190px).  |
+| `user.zen-sidebar.note-indicator`    | `true`  | Bring back toolbar note indicator.  |
 | `user.audio-indicator`               | `true`  | Better audio indicator.             |
 | `user.urlbar`                        | `true`  | Enhanced URL bar.                   |
 | `user.urlbar.blur.browser-container` | `true`  | Blur only browser container.        |
