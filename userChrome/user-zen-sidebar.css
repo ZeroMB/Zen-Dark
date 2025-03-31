@@ -9,8 +9,8 @@
 
     /* Smaller essentials */
     #zen-essentials-container {
-        --tab-min-height: 42px !important;
-        gap: 1px !important;
+        /* --tab-min-height: 42px !important; */
+        gap: 2px !important;
         /* border-bottom: 1px solid #282828 !important; */
         margin-bottom: 7px !important;
         padding-bottom: 8px !important;
